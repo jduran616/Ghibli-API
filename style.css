@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background:rgb(245, 153, 136);
+  font-family: 'Nunito', 'sans-serif';
+}
+
 #root {
   max-width: 1200px;
   margin: 0 auto;
@@ -8,9 +17,29 @@
   flex-wrap: wrap;
 }
 
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
 .card {
   margin: 1rem;
   border: 1px solid gray;
+  border-radius: 1rem;
+  background: rgb(179, 111, 145);
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.5rem;
+    padding: 0 1.5rem 1.5rem;
 }
 
 @media screen and (min-width: 600px) {
