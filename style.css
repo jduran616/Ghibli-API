@@ -3,7 +3,10 @@
 }
 
 html {
-  background:rgb(245, 153, 136);
+  background:-webkit-gradient(linear, left top, right bottom, from(#24C6DC), to(#514A9D));
+    background:-webkit-linear-gradient(top left, #24C6DC, #514A9D);
+    background:-o-linear-gradient(top left, #24C6DC, #514A9D);
+    background:linear-gradient(to bottom right, #24C6DC, #514A9D);
   font-family: 'Nunito', 'sans-serif';
 }
 
